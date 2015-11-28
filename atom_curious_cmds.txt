@@ -1,2 +1,7 @@
-apm list --installed --bare > package-list.txt
-apm install --packages-file packagelist.txt
+To save installed packages to a file
+
+    apm list --installed --bare > package-list.txt
+
+Then install packages from that file somewhere else
+
+    apm install --packages-file packagelist.txt
